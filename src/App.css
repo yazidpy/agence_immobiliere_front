@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+:root {
+    /**
+     * colors
+     */
+    --safety-orange: hsl(25, 100%, 50%);
+    --lavender-gray: hsl(230, 19%, 81%);
+    --persian-rose: hsl(328, 100%, 59%);
+    --red-crayola: hsl(341, 100%, 49%);
+    --eerie-black: hsl(240, 6%, 10%);
+    --light-gray: hsl(0, 0%, 80%);
+    --cultured-2: hsl(210, 60%, 98%);
+    --platinum: hsl(0, 0%, 90%);
+    --gray-web: hsl(220, 5%, 49%);
+    --cultured: hsl(0, 0%, 93%);
+    --black_10: hsla(0, 0%, 0%, 0.1);
+    --black_5: hsla(0, 0%, 0%, 0.05);
+    --white-1: hsl(0, 0%, 100%);
+    --white-2: hsl(0, 14%, 98%);
+    --black: hsl(0, 0%, 0%);
+}
+.primary_color{
+ color: hsl(328, 100%, 59%);   
+}
+.primary_color_bg{
+    background-color: hsl(328, 100%, 59%);
+}
+
